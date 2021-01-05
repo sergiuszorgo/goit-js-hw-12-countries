@@ -4,17 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --env.mode development",
-    "build": "webpack --env.mode production",
+    "start": "webpack-dev-server --env.mode development --config ./webpack/config.js",
+    "build": "webpack --env.mode production --config ./webpack/config.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sergiuszorgo/goit-js-hw-12-countries.git"
   },
   "keywords": [],
-  "author": "Zorin Sergey",
+  "author": "Zorin Sergey <sergiuszorgo@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sergiuszorgo/goit-js-hw-12-countries/issues"

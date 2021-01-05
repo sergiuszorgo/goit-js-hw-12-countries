@@ -1,2 +1,3 @@
-import css from "./css/styles.css";
-import refs from "./js/refs.js";
+import './css/styles.css';
+import './js/refs.js';
+import './js/countryCard.js';
